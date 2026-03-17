@@ -1,0 +1,7 @@
+cq.py
+pyproject.toml
+console_query.egg-info/PKG-INFO
+console_query.egg-info/SOURCES.txt
+console_query.egg-info/dependency_links.txt
+console_query.egg-info/requires.txt
+console_query.egg-info/top_level.txt
