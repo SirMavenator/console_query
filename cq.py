@@ -23,7 +23,11 @@ if __name__ == '__main__':
     parser.add_argument('--prompt', type=str, help='Prompt string to send to model')
     parser.add_argument('--verbose', required=False, action="store_true", help='Provide verbose output')
     args = parser.parse_args()
-
+    
+    if args.verbose:
+        logging.basicConfig(level=logging.INFO)
+        logger = logging.getLogger(__name__)
+    
     load_dotenv()
     
 
